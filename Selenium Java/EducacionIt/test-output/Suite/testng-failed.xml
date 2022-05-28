@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegistroUsuarioChrome(failed)">
+    <parameter name="navegador" value="chrome"/>
+    <classes>
+      <class name="Edit.EducacionIt.Laboratorio2">
+        <methods>
+          <include name="setUp"/>
+          <include name="fin"/>
+          <include name="salir"/>
+          <include name="lab2_E1"/>
+        </methods>
+      </class> <!-- Edit.EducacionIt.Laboratorio2 -->
+    </classes>
+  </test> <!-- RegistroUsuarioChrome(failed) -->
+  <test thread-count="5" name="RegistroUsuarioFirefox(failed)">
+    <parameter name="navegador" value="Firefox"/>
+    <classes>
+      <class name="Edit.EducacionIt.Laboratorio2">
+        <methods>
+          <include name="setUp"/>
+          <include name="fin"/>
+          <include name="salir"/>
+          <include name="lab2_E1"/>
+        </methods>
+      </class> <!-- Edit.EducacionIt.Laboratorio2 -->
+    </classes>
+  </test> <!-- RegistroUsuarioFirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

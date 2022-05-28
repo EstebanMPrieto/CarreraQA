@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-27T12:56:09 ART" name="OrangeHRM" finished-at="2022-05-27T12:56:49 ART" duration-ms="39776">
+    <groups>
+    </groups>
+    <test started-at="2022-05-27T12:56:09 ART" name="Login,AddUser,DeleteUser,Chrome" finished-at="2022-05-27T12:56:29 ART" duration-ms="19938">
+      <class name="EducacionIT.OpenHRM.Test_BonusTrack2b">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:EducacionIT.OpenHRM.Test_BonusTrack2b@222545dc]" started-at="2022-05-27T12:56:09 ART" name="setUp" finished-at="2022-05-27T12:56:13 ART" duration-ms="4076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginHRM()[pri:1, instance:EducacionIT.OpenHRM.Test_BonusTrack2b@222545dc]" started-at="2022-05-27T12:56:13 ART" name="loginHRM" description="CP01 - Login" finished-at="2022-05-27T12:56:20 ART" duration-ms="6521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginHRM -->
+        <test-method signature="addUSER()[pri:2, instance:EducacionIT.OpenHRM.Test_BonusTrack2b@222545dc]" started-at="2022-05-27T12:56:20 ART" name="addUSER" description="CP02 - Add User" finished-at="2022-05-27T12:56:25 ART" duration-ms="4830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUSER -->
+        <test-method signature="delUser()[pri:3, instance:EducacionIT.OpenHRM.Test_BonusTrack2b@222545dc]" started-at="2022-05-27T12:56:25 ART" name="delUser" description="CP03 - Delete User" finished-at="2022-05-27T12:56:29 ART" duration-ms="4439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delUser -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:EducacionIT.OpenHRM.Test_BonusTrack2b@222545dc]" started-at="2022-05-27T12:56:29 ART" name="quit" finished-at="2022-05-27T12:56:29 ART" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- EducacionIT.OpenHRM.Test_BonusTrack2b -->
+    </test> <!-- Login,AddUser,DeleteUser,Chrome -->
+    <test started-at="2022-05-27T12:56:29 ART" name="Login,AddUser,DeleteUser,Chrome,Firefox" finished-at="2022-05-27T12:56:49 ART" duration-ms="19814">
+      <class name="EducacionIT.OpenHRM.Test_BonusTrack2b">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:EducacionIT.OpenHRM.Test_BonusTrack2b@4562e04d]" started-at="2022-05-27T12:56:29 ART" name="setUp" finished-at="2022-05-27T12:56:34 ART" duration-ms="4504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginHRM()[pri:1, instance:EducacionIT.OpenHRM.Test_BonusTrack2b@4562e04d]" started-at="2022-05-27T12:56:34 ART" name="loginHRM" description="CP01 - Login" finished-at="2022-05-27T12:56:39 ART" duration-ms="5206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginHRM -->
+        <test-method signature="addUSER()[pri:2, instance:EducacionIT.OpenHRM.Test_BonusTrack2b@4562e04d]" started-at="2022-05-27T12:56:39 ART" name="addUSER" description="CP02 - Add User" finished-at="2022-05-27T12:56:44 ART" duration-ms="4544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUSER -->
+        <test-method signature="delUser()[pri:3, instance:EducacionIT.OpenHRM.Test_BonusTrack2b@4562e04d]" started-at="2022-05-27T12:56:44 ART" name="delUser" description="CP03 - Delete User" finished-at="2022-05-27T12:56:48 ART" duration-ms="4960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delUser -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:EducacionIT.OpenHRM.Test_BonusTrack2b@4562e04d]" started-at="2022-05-27T12:56:48 ART" name="quit" finished-at="2022-05-27T12:56:49 ART" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- EducacionIT.OpenHRM.Test_BonusTrack2b -->
+    </test> <!-- Login,AddUser,DeleteUser,Chrome,Firefox -->
+  </suite> <!-- OrangeHRM -->
+</testng-results>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-27T14:44:30 ART" name="Suite" finished-at="2022-05-27T14:45:04 ART" duration-ms="34681">
+    <groups>
+    </groups>
+    <test started-at="2022-05-27T14:44:30 ART" name="RegistroUsuarioChrome" finished-at="2022-05-27T14:44:46 ART" duration-ms="16217">
+      <class name="Edit.EducacionIt.Laboratorio2">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Edit.EducacionIt.Laboratorio2@399f45b1]" started-at="2022-05-27T14:44:30 ART" name="setUp" finished-at="2022-05-27T14:44:35 ART" duration-ms="5811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lab2_E1()[pri:1, instance:Edit.EducacionIt.Laboratorio2@399f45b1]" started-at="2022-05-27T14:44:35 ART" name="lab2_E1" description="Registro de Usuario" finished-at="2022-05-27T14:44:42 ART" duration-ms="6644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lab2_E1 -->
+        <test-method signature="lab1_E3()[pri:2, instance:Edit.EducacionIt.Laboratorio2@399f45b1]" started-at="2022-05-27T14:44:42 ART" name="lab1_E3" description="Buscar palabra" finished-at="2022-05-27T14:44:46 ART" duration-ms="3622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lab1_E3 -->
+        <test-method is-config="true" signature="salir()[pri:0, instance:Edit.EducacionIt.Laboratorio2@399f45b1]" started-at="2022-05-27T14:44:46 ART" name="salir" finished-at="2022-05-27T14:44:46 ART" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salir -->
+      </class> <!-- Edit.EducacionIt.Laboratorio2 -->
+    </test> <!-- RegistroUsuarioChrome -->
+    <test started-at="2022-05-27T14:44:46 ART" name="RegistroUsuarioFirefox" finished-at="2022-05-27T14:45:04 ART" duration-ms="18441">
+      <class name="Edit.EducacionIt.Laboratorio2">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Edit.EducacionIt.Laboratorio2@2a65fe7c]" started-at="2022-05-27T14:44:46 ART" name="setUp" finished-at="2022-05-27T14:44:53 ART" duration-ms="6705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lab2_E1()[pri:1, instance:Edit.EducacionIt.Laboratorio2@2a65fe7c]" started-at="2022-05-27T14:44:53 ART" name="lab2_E1" description="Registro de Usuario" finished-at="2022-05-27T14:45:02 ART" duration-ms="9735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lab2_E1 -->
+        <test-method signature="lab1_E3()[pri:2, instance:Edit.EducacionIt.Laboratorio2@2a65fe7c]" started-at="2022-05-27T14:45:02 ART" name="lab1_E3" description="Buscar palabra" finished-at="2022-05-27T14:45:04 ART" duration-ms="1353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lab1_E3 -->
+        <test-method is-config="true" signature="salir()[pri:0, instance:Edit.EducacionIt.Laboratorio2@2a65fe7c]" started-at="2022-05-27T14:45:04 ART" name="salir" finished-at="2022-05-27T14:45:04 ART" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salir -->
+        <test-method is-config="true" signature="fin()[pri:0, instance:Edit.EducacionIt.Laboratorio2@2a65fe7c]" started-at="2022-05-27T14:45:04 ART" name="fin" finished-at="2022-05-27T14:45:04 ART" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin -->
+      </class> <!-- Edit.EducacionIt.Laboratorio2 -->
+    </test> <!-- RegistroUsuarioFirefox -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM">
+  <test name="Login,AddUser,DeleteUser,Chrome">
+  <parameter name="navegador" value="Chrome"></parameter>
+    <classes>
+      <class name="EducacionIT.OpenHRM.Test_BonusTrack2b"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="Login,AddUser,DeleteUser,Chrome,Firefox">
+  <parameter name="navegador" value="firefox"></parameter>
+    <classes>
+      <class name="EducacionIT.OpenHRM.Test_BonusTrack2b"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
